@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
   s.module_map    = 'Modules/module.modulemap'
   s.source_files  = 'Sources/**/*.swift'
   s.libraries     = 'xml2'
-  s.xcconfig      = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2', 'SWIFT_INCLUDE_PATHS' => '$(SRCROOT)/Kanna/Modules' }
+  s.xcconfig      = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
 end
 
